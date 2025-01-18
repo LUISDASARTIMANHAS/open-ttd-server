@@ -1,6 +1,7 @@
 # essa e a segunda coisa a ser executada, caso seja um dedicado
 # o jogo deixa a gente omitir setting para algumas coisas
 # mas outras são obrigatorias
+script logs-server.txt
 echo "====================================================="
 echo "Executando funções do servidor dedicado"
 echo "====================================================="
