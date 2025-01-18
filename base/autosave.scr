@@ -1,0 +1,11 @@
+
+echo "       "
+say "---Save Backup---"
+save server_autosave
+say "SAVE: 50%"
+save server_autosave2
+say "SAVE: 75%"
+say "---Save Finished---"
+echo "       "
+ls
+return

@@ -1,0 +1,58 @@
+echo "====================================================="
+echo "WORLD SETTINGS"
+echo "====================================================="
+# usage exec scripts/base/worlds_settings.scr 
+
+game_creation.town_name = english
+game_creation.landscape = arctic
+game_creation.heightmap_height = 30
+game_creation.snow_line_height = 3
+game_creation.snow_coverage = 40
+game_creation.desert_coverage = 50
+game_creation.starting_year = 1950
+game_creation.ending_year = 2024
+game_creation.land_generator = 1
+game_creation.oil_refinery_limit = 32
+game_creation.tgen_smoothness = 1
+game_creation.variety = 3
+# game_creation.generation_seed = 2847139829
+game_creation.tree_placer = 2
+game_creation.heightmap_rotation = 0
+game_creation.se_flat_world_height = 1
+game_creation.map_x = 11
+game_creation.map_y = 11
+game_creation.water_borders = 15
+game_creation.custom_town_number = 1
+game_creation.custom_industry_number = 1
+game_creation.custom_terrain_type = 30
+game_creation.custom_sea_level = 1
+game_creation.min_river_length = 16
+game_creation.river_route_random = 5
+game_creation.amount_of_rivers = 2
+
+echo ""
+echo [outers]
+ai_in_multiplayer = true
+ai_disable_veh_train = false
+ai_disable_veh_roadveh = false
+ai_disable_veh_aircraft = false
+ai_disable_veh_ship = false
+game_creation.map_x = 11
+game_creation.map_y = 11
+
+echo ""
+echo [outers]
+# setting ai_in_multiplayer "true"
+# setting ai_disable_veh_train "false"
+# setting ai_disable_veh_roadveh "false"
+# setting ai_disable_veh_aircraft "false"
+# setting ai_disable_veh_ship "false"
+# setting game_creation.map_x "11"
+# setting game_creation.map_y "11"
+
+list_settings game_creation
+
+echo "====================================================="
+echo "END CONFIGURATION OF WORLD SETTINGS"
+echo "====================================================="
+echo ""

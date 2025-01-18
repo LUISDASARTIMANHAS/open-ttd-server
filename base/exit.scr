@@ -1,0 +1,8 @@
+echo "       "
+say "---SERVER EXIT---"
+say "---THANKS FOR PLAYING!---"
+pause
+exec scripts\base\autosave.scr
+save exit_save
+script logs.txt
+exit
