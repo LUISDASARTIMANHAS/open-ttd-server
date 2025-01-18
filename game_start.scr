@@ -2,10 +2,7 @@
 echo "====================================================="
 echo "   game start  "
 echo "====================================================="
-
-
-
-
+exec scripts/base/worlds_settings.scr
 
 say "-----------GAME START-----------"
 say "HOST BY LUIS DAS ARTIMANHAS"

@@ -10,10 +10,6 @@ server_pw ""
 name "SERVER"
 server_name "LDA SERVER (DEDICATED)"
 
-exec scripts/base/worlds_settings.scr
-
-load exit_save.sav
-
 
 echo "====================================================="
 echo "Funções do servidor dedicado TERMINADAS"

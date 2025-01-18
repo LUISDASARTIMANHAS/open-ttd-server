@@ -3,32 +3,32 @@ echo "WORLD SETTINGS"
 echo "====================================================="
 # usage exec scripts/base/worlds_settings.scr 
 
-setting game_creation.town_name = english
-setting game_creation.landscape = arctic
-setting game_creation.heightmap_height = 30
-setting game_creation.snow_line_height = 3
-setting game_creation.snow_coverage = 40
-setting game_creation.desert_coverage = 50
-setting game_creation.starting_year = 1950
-setting game_creation.ending_year = 2024
-setting game_creation.land_generator = 1
-setting game_creation.oil_refinery_limit = 32
-setting game_creation.tgen_smoothness = 1
-setting game_creation.variety = 3
-# setting game_creation.generation_seed = 2847139829
-setting game_creation.tree_placer = 2
-setting game_creation.heightmap_rotation = 0
-setting game_creation.se_flat_world_height = 1
-setting game_creation.map_x = 11
-setting game_creation.map_y = 11
-setting game_creation.water_borders = 15
-setting game_creation.custom_town_number = 1
-setting game_creation.custom_industry_number = 1
-setting game_creation.custom_terrain_type = 30
-setting game_creation.custom_sea_level = 1
-setting game_creation.min_river_length = 16
-setting game_creation.river_route_random = 5
-setting game_creation.amount_of_rivers = 2
+setting game_creation.town_name "english"
+setting game_creation.landscape "arctic"
+setting game_creation.heightmap_height "30"
+setting game_creation.snow_line_height "3"
+setting game_creation.snow_coverage "40"
+setting game_creation.desert_coverage "50"
+setting game_creation.starting_year "1950"
+setting game_creation.ending_year "2024"
+setting game_creation.land_generator "1"
+setting game_creation.oil_refinery_limit "32"
+setting game_creation.tgen_smoothness "1"
+setting game_creation.variety "3"
+# setting game_creation.generation_seed "2847139829"
+setting game_creation.tree_placer "2"
+setting game_creation.heightmap_rotation "0"
+setting game_creation.se_flat_world_height "1"
+setting game_creation.map_x "11"
+setting game_creation.map_y "11"
+setting game_creation.water_borders "15"
+setting game_creation.custom_town_number "1"
+setting game_creation.custom_industry_number "1"
+setting game_creation.custom_terrain_type "30"
+setting game_creation.custom_sea_level "1"
+setting game_creation.min_river_length "16"
+setting game_creation.river_route_random "5"
+setting game_creation.amount_of_rivers "2"
 
 echo ""
 echo [outers]
@@ -40,7 +40,7 @@ setting ai_disable_veh_ship "false"
 setting game_creation.map_x "11"
 setting game_creation.map_y "11"
 
-list_settings setting game_creation
+list_settings game_creation
 
 echo "====================================================="
 echo "END CONFIGURATION OF WORLD SETTINGS"
