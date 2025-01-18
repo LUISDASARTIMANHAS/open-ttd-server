@@ -11,7 +11,7 @@ say "---------THANKS FOR PLAYING!---------"
 say "AUTOSAVE: MONTH"
 say "AUTO CLEAN COMPANIES: TRUE"
 say "LOAD AUTOSAVE: TRUE"
-say "RESTART: 2023"
+say "RESTART: 2025"
 getdate
 
 list_cmds

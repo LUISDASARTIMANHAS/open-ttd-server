@@ -37,8 +37,6 @@ setting ai_disable_veh_train "false"
 setting ai_disable_veh_roadveh "false"
 setting ai_disable_veh_aircraft "false"
 setting ai_disable_veh_ship "false"
-setting game_creation.map_x "11"
-setting game_creation.map_y "11"
 
 list_settings game_creation
 
