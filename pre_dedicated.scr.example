@@ -1,0 +1,19 @@
+# set the server port to the default value
+server_ip = all
+server_port = 3979
+server_name = LDA SERVER (DEDICATED)
+commands_per_frame = 2
+max_commands_in_queue = 16
+bytes_per_frame = 8
+bytes_per_frame_burst = 256
+max_init_time = 100
+max_join_time = 500
+max_download_time = 1024
+max_password_time = 2000
+max_lag_time = 500
+server_admin_port = 3977
+server_admin_chat = true
+server_game_type = public
+min_active_clients = 0
+no_http_content_downloads = false
+use_relay_service = allow

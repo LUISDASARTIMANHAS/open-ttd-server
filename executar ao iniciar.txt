@@ -1,0 +1,8 @@
+load exit_save 
+ou use
+exec /scripts/base/load.scr
+
+
+
+exec /scripts/base/autosave.scr
+exec /scripts/base/exit.scr

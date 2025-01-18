@@ -1,0 +1,27 @@
+# quando alguem se conecta ao servidor
+# o jogo deixa a gente omitir setting para algumas coisas
+# mas outras são obrigatorias
+
+echo "====================================================="
+say "-----------WELCOME EVERYONE-----------"
+say "HOST BY LUIS DAS ARTIMANHAS"
+say "WEBSITE: https://pingobras.glitch.me/openttd"
+say "---------THANKS FOR PLAYING!---------"
+say "AUTOSAVE: MONTH"
+say "AUTO CLEAN COMPANIES: TRUE"
+say "LOAD AUTOSAVE: TRUE"
+say "RESTART: 2025"
+
+exec /scripts/base/autosave.scr
+unpause
+
+echo "       "
+echo "-----COMPANIES-----"
+companies
+echo "       "
+echo "-----CLIENTS-----"
+clients
+echo "       "
+
+echo "====================================================="
+echo ""

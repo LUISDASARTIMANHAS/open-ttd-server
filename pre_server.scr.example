@@ -1,0 +1,43 @@
+# set the server port to the default value
+
+echo [network]
+network.server_name = LDA SERVER
+network.connect_to_ip = +NzW6vtN
+network.last_joined = +NzW6vtN
+network.use_relay_service = allow
+network.participate_survey = yes
+network.server_password =
+network.rcon_password = 
+network.admin_password = 
+network.default_company_pass = 2004
+network.network_id =
+network.server_invite_code = +xZHqbJ6
+network.server_invite_code_secret = 6497f75c5e3c50426f39fe3a75bab33381849628
+
+server_ip = all
+server_port = 3979
+server_name = LDA SERVER
+commands_per_frame = 2
+max_commands_in_queue = 16
+bytes_per_frame = 8
+bytes_per_frame_burst = 256
+max_init_time = 100
+max_join_time = 500
+max_download_time = 1024
+max_password_time = 2000
+max_lag_time = 500
+server_admin_port = 3977
+server_admin_chat = true
+server_game_type = public
+min_active_clients = 0
+no_http_content_downloads = false
+use_relay_service = allow
+ai.ai_in_multiplayer = true
+ai.ai_disable_veh_train = false
+ai.ai_disable_veh_roadveh = false
+ai.ai_disable_veh_aircraft = false
+ai.ai_disable_veh_ship = false
+game_creation.map_x = 11
+game_creation.map_y = 11
+
+

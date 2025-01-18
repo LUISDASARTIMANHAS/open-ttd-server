@@ -1,0 +1,28 @@
+# Quando o jogo iniciar
+echo "====================================================="
+echo "   game start  "
+echo "====================================================="
+
+
+
+
+
+say "-----------GAME START-----------"
+say "HOST BY LUIS DAS ARTIMANHAS"
+say "WEBSITE: https://pingobras.glitch.me/openttd"
+say "---------THANKS FOR PLAYING!---------"
+say "AUTOSAVE: MONTH"
+say "AUTO CLEAN COMPANIES: TRUE"
+say "LOAD AUTOSAVE: TRUE"
+say "RESTART: 2023"
+getdate
+
+list_cmds
+echo "       "
+unpause
+
+rcon_password ""
+echo "====================================================="
+echo "BYE"
+echo "====================================================="
+echo ""

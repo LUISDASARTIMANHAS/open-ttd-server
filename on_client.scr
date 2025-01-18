@@ -1,0 +1,12 @@
+# o jogo deixa a gente omitir setting para algumas coisas
+# mas outras são obrigatorias
+echo "====================================================="
+echo "Setting default network client settings..."
+echo "====================================================="
+name "LUIS DAS ARTIMANHAS PC"
+say "hello!"
+
+echo "====================================================="
+echo "END OF default network client settings"
+echo "====================================================="
+echo ""

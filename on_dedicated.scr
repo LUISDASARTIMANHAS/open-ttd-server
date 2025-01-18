@@ -1,0 +1,21 @@
+# essa e a segunda coisa a ser executada, caso seja um dedicado
+# o jogo deixa a gente omitir setting para algumas coisas
+# mas outras são obrigatorias
+echo "====================================================="
+echo "Executando funções do servidor dedicado"
+echo "====================================================="
+# empty the server password
+
+server_pw ""
+name "SERVER"
+server_name "LDA SERVER (DEDICATED)"
+
+load exit_save.sav
+
+
+echo "====================================================="
+echo "Funções do servidor dedicado TERMINADAS"
+echo "====================================================="
+echo ""
+
+# mapa sera gerado apartir daqui
